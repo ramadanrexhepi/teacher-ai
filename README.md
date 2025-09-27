@@ -112,4 +112,3 @@ Feel free to fork the repo, create a branch, and submit a PR.
 
 MIT License.  
 Built with pride using React Native & Expo.
-```
