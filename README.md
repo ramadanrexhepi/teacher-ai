@@ -101,13 +101,6 @@ The app uses **fun quizzes, playful animations, voice, and camera interactions**
 
 ---
 
-##  Contributing
-
-We welcome contributions!  
-Feel free to fork the repo, create a branch, and submit a PR.  
-
----
-
 ##  License
 
 MIT License.  
