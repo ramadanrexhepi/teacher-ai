@@ -1,4 +1,4 @@
-```markdown
+
 #  AI Tutor for Kids
 
 An interactive **AI-powered learning app for kids** built with **React Native + Expo**.  
