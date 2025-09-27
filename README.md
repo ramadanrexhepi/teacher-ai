@@ -1,50 +1,123 @@
-# Welcome to your Expo app 👋
+# 🧑‍🏫 AI Tutor for Kids
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An interactive **AI-powered learning app for kids** built with **React Native + Expo**.  
+The app uses **fun quizzes, playful animations, voice, and camera interactions** to make learning engaging and enjoyable.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Current Features
 
+✅ **Splash / Loading Screen**  
+- Animated intro with logo and app name.
+
+✅ **Home Screen**  
+- Clean dashboard with quick access buttons:
+  - 📷 Camera Learning Mode (take pictures to learn about objects)  
+  - 🎮 Play Quiz (different categories of questions)  
+  - 📚 My Learning (saved progress – WIP)  
+
+✅ **Camera Screen**  
+- Opens device camera (using `expo-camera`)  
+- Future plan: AI object recognition (kids take a picture and AI explains in kid-friendly language).  
+
+✅ **Quiz Module**  
+- **Quiz Selection Screen** with multiple categories:  
+  - 🐾 Animals  
+  - 🌍 Nature  
+  - 🎨 Colors  
+  - 🍏 Food  
+  - 🌎 Geography  
+  - 📖 History  
+  - ⚽ Sports  
+  - 💻 Technology  
+  - 🎨 Artists  
+  - 🚗 Cars  
+  - 🏛️ Politics  
+
+- **Advanced Play Quiz Screen**:  
+  - Multiple choice quizzes with beautiful design.  
+  - Animated transitions between questions.  
+  - ✅ / ❌ feedback animations.  
+  - Score tracking with stars and trophies.  
+  - Lives system (3 hearts).  
+  - Progress bar.  
+
+---
+
+## 📦 Tech Stack
+
+- **React Native** (Expo)  
+- **Expo Router** (file-based navigation)  
+- **TypeScript**  
+- **react-native-progress** (progress bar)  
+- **@expo/vector-icons** (icons)  
+- **Animated API** for effects (fade, scale, shake, sparkle)  
+
+---
+
+## 🛠 Installation & Running
+
+1. Clone the repo:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/YOUR_USERNAME/ai-tutor-kids.git
+   cd ai-tutor-kids
+Install dependencies:
 
-2. Start the app
+bash
+Copy code
+npm install
+Start the app:
 
-   ```bash
-   npx expo start
-   ```
+bash
+Copy code
+npx expo start
+Open in:
 
-In the output, you'll find options to open the app in a
+Expo Go app (iOS / Android)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+iOS Simulator
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Android Emulator
 
-## Get a fresh project
+🎯 Roadmap / Future Plans
+📱 Near-Term
+Add AI-powered quiz generation (OpenAI integration).
 
-When you're ready, run:
+Save quiz progress and learning history to AsyncStorage / SQLite.
 
-```bash
-npm run reset-project
-```
+Add category-specific icons & animations.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🤖 Mid-Term
+Voice interaction: kids can answer by speaking.
 
-## Learn more
+Camera AI Tutor: take a picture of an object, and AI generates a fun fact + quiz about it.
 
-To learn more about developing your project with Expo, look at the following resources:
+Achievements system (badges, stars, streaks).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🌍 Long-Term
+Multi-language support (English, Albanian, Macedonian, etc.).
 
-## Join the community
+Parent dashboard (track child progress).
 
-Join our community of developers creating universal apps.
+Cloud sync (Firebase or Supabase backend).
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Publish on Google Play Store and Apple App Store.
+
+👨‍💻 Contributing
+We welcome contributions!
+Feel free to fork the repo, create a branch, and submit a PR.
+
+📜 License
+MIT License.
+Built with ❤️ using React Native & Expo.
+
+yaml
+Copy code
+
+---
+
+👉 Do you want me to also create a **feature roadmap table** (with ✅ Done, 🛠 In Progress, ⏳ Planned), so it looks more visual for GitHub?
+
+
+
+
