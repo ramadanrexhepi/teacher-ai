@@ -60,7 +60,7 @@ The app uses **fun quizzes, playful animations, voice, and camera interactions**
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ai-tutor-kids.git
+   git clone https://github.com/ramadanrexhepi/ai-tutor-kids.git
    cd ai-tutor-kids
    ```
 
